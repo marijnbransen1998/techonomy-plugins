@@ -17,7 +17,7 @@ Use this skill whenever the user:
 
 ## Brand & Template
 
-- **Template**: `/Users/marijnbransen/Downloads/Techonomy PPT met voorbeelden.pptx`
+- **Template**: `~/Downloads/Techonomy PPT met voorbeelden.pptx` (standaard zoekpad — overschrijfbaar via env var `TECHONOMY_TEMPLATE`)
 - **Heading font**: Orbitron Bold
 - **Body font**: Montserrat
 - **Colors**: Dark navy `#000031`, Dark blue `#0000DC`, Orange-red `#FF4600`, Pink `#D4145A`, Light gray `#E6EEEF`, Light blue `#94CEE5`

@@ -36,7 +36,10 @@ WHITE      = RGBColor(255, 255, 255)
 _HDR_BG    = RGBColor(1,   0,  49)   # #010031 — table header bg
 _KANAAL_BG = RGBColor(22,  0, 220)   # #1600DC — kanaal cell bg
 
-TEMPLATE = "/Users/marijnbransen/Downloads/Techonomy PPT met voorbeelden.pptx"
+TEMPLATE = os.environ.get(
+    "TECHONOMY_TEMPLATE",
+    os.path.join(os.path.expanduser("~"), "Downloads", "Techonomy PPT met voorbeelden.pptx")
+)
 
 # Icon assets (extracted from template slides 59/60)
 _HERE = os.path.dirname(os.path.abspath(__file__))
