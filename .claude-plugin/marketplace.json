@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "techonomy-plugins",
+  "description": "Techonomy interne plugins en skills voor het aanmaken van client deliverables, campagneplannen en presentaties.",
+  "owner": {
+    "name": "Techonomy",
+    "email": "info@techonomy.be"
+  },
+  "plugins": [
+    {
+      "name": "techonomy-tools",
+      "description": "Techonomy-branded skills voor client deliverables: campagneplan presentaties, mediaplannen en meer.",
+      "category": "productivity",
+      "source": "./plugins/techonomy-tools"
+    }
+  ]
+}
